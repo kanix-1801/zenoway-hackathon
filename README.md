@@ -1,6 +1,6 @@
 # Zenoway
 
-Social Geeks is a decentralised social media platform that is designed to provide users with a secure, private, and user-controlled alternative to centralized social media platforms which is simple and easy to use. Zenoway is built a blockchain network, which ensures that user data is stored in a decentralized manner and is secure from unauthorized access. Users can interact with each other through a variety of features, including posts, likes, and following.
+Zenoway is a decentralised social media platform that is designed to provide users with a secure, private, and user-controlled alternative to centralized social media platforms which is simple and easy to use. Zenoway is built a blockchain network, which ensures that user data is stored in a decentralized manner and is secure from unauthorized access. Users can interact with each other through a variety of features, including posts, likes, and following.
 
 ## Features
 
@@ -70,9 +70,9 @@ Run Zenoway on Browser
 Website
 
 ```bash
-https://zenoway-buildweek-ad46c4.spheron.app/
+https://zenoway-hackathon-39ec06.spheron.app/
 
-https://zenoway-buildweek.on.fleek.co/
+https://zenoway-hackathon.on.fleek.co/
 
-https://replit.com/@KalpitJain/Zenoway-BuildWeek
+https://github.com/kalpitjain/zenoway-hackathon
 ```
