@@ -19,8 +19,33 @@ import {
 } from "@rainbow-me/rainbowkit/wallets";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
 
+const shardeum = {
+  id: 8082,
+  name: "Shardeum",
+  network: "	Shardeum Sphinx 1.X",
+  iconUrl: "https://avatars.githubusercontent.com/u/98940804?s=200&v=4",
+  iconBackground: "#fff",
+  nativeCurrency: {
+    decimals: 18,
+    name: "SHARD",
+    symbol: "SHM",
+  },
+  rpcUrls: {
+    default: {
+      http: ["https://sphinx.shardeum.org/"],
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "Shardeum Explorer",
+      url: "https://explorer-sphinx.shardeum.org/",
+    },
+  },
+  testnet: true,
+};
+
 const { chains, provider } = configureChains(
-  [polygonMumbai, sepolia],
+  [shardeum, polygonMumbai, sepolia],
   [
     jsonRpcProvider({
       rpc: (chain) => ({ http: chain.rpcUrls.default.http[0] }),

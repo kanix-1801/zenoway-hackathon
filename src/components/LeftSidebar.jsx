@@ -80,6 +80,11 @@ function LeftSidebar() {
         contractAddress: Contract.MumbaiContractAddress,
         contractAbi: Contract.abi,
       };
+    } else if (chainId === 8082) {
+      zenowayContract = {
+        contractAddress: Contract.ShardeumContractAddress,
+        contractAbi: Contract.abi,
+      };
     } else {
       zenowayContract = {
         contractAddress: Contract.SpoliaContractAddress,
@@ -144,6 +149,11 @@ function LeftSidebar() {
     if (chainId === 80001) {
       zenowayContract = {
         contractAddress: Contract.MumbaiContractAddress,
+        contractAbi: Contract.abi,
+      };
+    } else if (chainId === 8082) {
+      zenowayContract = {
+        contractAddress: Contract.ShardeumContractAddress,
         contractAbi: Contract.abi,
       };
     } else {

@@ -23,6 +23,11 @@ function Explore() {
         contractAddress: Contract.MumbaiContractAddress,
         contractAbi: Contract.abi,
       };
+    } else if (chainId === 8082) {
+      zenowayContract = {
+        contractAddress: Contract.ShardeumContractAddress,
+        contractAbi: Contract.abi,
+      };
     } else {
       zenowayContract = {
         contractAddress: Contract.SpoliaContractAddress,
